@@ -6,4 +6,4 @@ This simple project is made as a assignment for DevTown 1 week ML model deployme
 Thanks to DevTown, 
 (visit their site at: [DevTown](https://www.devtown.in/))
 
-This project is deployed and it is live at [housing-price-estimator.herokuapp.com/](https://housing-price-estimator.herokuapp.com/)
+This project is deployed and it is live at [housing-price-estimator.herokuapp.com](https://housing-price-estimator.herokuapp.com/)
