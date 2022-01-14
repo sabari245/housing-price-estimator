@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>House Price Predictor</title>
+</head>
+<body class="p-3">
+    <h1 class="text-primary">House Price Predictor</h1>
+    <form action="/" method="post">
+        <div class="mb-3">
+            <label for="area" class="form-label">Area</label>
+            <input id="area" class="form-control" type="number" name="area"/>
+        </div>
+        <div class="mb-3">
+            <label for="bedrooms" class="form-label">Bedrooms</label>
+            <input id="bedrooms" class="form-control" type="number" name="bedrooms"/>
+        </div>
+        <div class="mb-3">
+            <label for="bathrooms" class="form-label">Bathrooms</label>
+            <input id="bathrooms" class="form-control" type="number" name="bathrooms"/>
+        </div>
+        <div class="mb-3">
+            <label for="stories" class="form-label">Stories</label>
+            <input id="stories" class="form-control" type="number" name="stories"/>
+        </div>
+        <div class="mb-3">
+            <label for="parking" class="form-label">Parking</label>
+            <input id="parking" class="form-control" type="number" name="parking"/>
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">predict</button>
+    </form>
+    <h2 class="text-secondary">{{message}}</h2>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
